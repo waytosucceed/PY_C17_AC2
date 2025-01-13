@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Mini-Activities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./logo/Logo.png" alt="Logo" class="logo" />
+        <img src="./logo/header.png" alt="Header" class="header-image" />
+    </header>
+
+    <!-- <p style="text-align: center; font-size: 1.7rem; font-weight: bold; margin-bottom: 0;">Mini Activity</p> -->
+    <p style="text-align: center; font-size: 1.7rem; font-weight: bold; margin-bottom: 0;">Mini Activity
+        👉🏽<a href="https://colab.research.google.com/drive/1VMK2Q96SkcY5Pv_nqNJVoQyQXqwRakw8?usp=sharing" target="_blank" class="button">Open Template</a>
+    
+    <main style="width: 90%;">
+        <section id="activity1">
+            <h2>Mini-Activity 1: </h2>
+            <p>Make the changes in the following code, so that it doesn't give an error even if you do not pass an argument for <b>greeting</b>.</p>
+            <img src="./images/sc1.png" class="ques-img" alt="ques" style="max-width: 50%;">
+<br>
+            <button class="show-answer-btn" id="show-answer-btn1">Show Code</button>
+            <img src="./images/sc2.png" class="answer-img" id="answer-img1" alt="Code example for handling missing arguments" style="max-width: 400px;">
+        </section>
+    
+        <section id="activity2">
+            <h2>Mini-Activity 2: </h2>
+            <p>This code has a lot of arguments; make changes in the function call so that you do not have to worry about the position of arguments.</p>
+            <img src="./images/sc3.png" class="ques-img" alt="ques" style="max-width: 90%;"> <br>
+
+            <button class="show-answer-btn" id="show-answer-btn2">Show Code</button>
+            <img src="./images/sc4.png" class="answer-img" id="answer-img2" alt="Code example for using keyword arguments" style="max-width: 100%;">
+        </section>
+
+        <section id="activity3">
+            <h2>Mini-Activity 3: </h2>
+            <p>In the following code, you are not sure about the number of arguments to pass. Make changes in the code so that you can pass as many arguments as you want without worrying about the parameters.</p>
+            <img src="./images/ma3q.png" class="ques-img" alt="ques" style="max-width: 40%;"> <br>
+        
+            <button class="show-answer-btn" id="show-answer-btn3">Show Code</button>
+            <img src="./images/ma3s.png" class="answer-img" id="answer-img3" alt="Code example for handling an unknown number of arguments" style="max-width: 30%;">
+        </section>
+        
+        <section id="activity4">
+            <h2>Mini-Activity 4:</h2><p>In the following code, you need to print the city out of all the details passed, how would you do that?</p> 
+            <img src="./images/ma4q.png" class="ques-img" alt="ques" style="max-width: 50%;"> <br>
+        
+            <button class="show-answer-btn" id="show-answer-btn4">Show Code</button>
+            <img src="./images/ma4s.png" class="answer-img" id="answer-img4" alt="Code example for printing city from passed details" style="max-width: 50%;">
+        </section>
+        
+        <section id="activity5">
+            <h2>Mini-Activity 5: </h2>
+            <p>In the following code, there is an error. Make the necessary changes to remove the error.</p>
+            <img src="./images/ma5q.png" class="ques-img" alt="ques" style="max-width: 50%;"> <br>
+        
+            <button class="show-answer-btn" id="show-answer-btn5">Show Code</button>
+            <img src="./images/ma5s.png" class="answer-img" id="answer-img5" alt="Code example for fixing the error" style="max-width: 50%;">
+        </section>
+        
+
+    </main>
+     <br>
+
+     
+    <button class="challenge-btn" onclick="window.location.href='challenges.html'">Challenges</button>
+<br> <br>
+    <script>
+        document.getElementById('show-answer-btn1').addEventListener('click', function() {
+            var img = document.getElementById('answer-img1');
+            if (img.style.display === 'none' || img.style.display === '') {
+                img.style.display = 'block';
+                this.textContent = 'Hide Answer';
+            } else {
+                img.style.display = 'none';
+                this.textContent = 'Show Answer';
+            }
+        });
+
+        document.getElementById('show-answer-btn2').addEventListener('click', function() {
+            var img = document.getElementById('answer-img2');
+            if (img.style.display === 'none' || img.style.display === '') {
+                img.style.display = 'block';
+                this.textContent = 'Hide Answer';
+            } else {
+                img.style.display = 'none';
+                this.textContent = 'Show Answer';
+            }
+        });
+
+        document.getElementById('show-answer-btn3').addEventListener('click', function() {
+            var img = document.getElementById('answer-img3');
+            if (img.style.display === 'none' || img.style.display === '') {
+                img.style.display = 'block';
+                this.textContent = 'Hide Answer';
+            } else {
+                img.style.display = 'none';
+                this.textContent = 'Show Answer';
+            }
+        });
+        document.getElementById('show-answer-btn4').addEventListener('click', function() {
+            var img = document.getElementById('answer-img4');
+            if (img.style.display === 'none' || img.style.display === '') {
+                img.style.display = 'block';
+                this.textContent = 'Hide Answer';
+            } else {
+                img.style.display = 'none';
+                this.textContent = 'Show Answer';
+            }
+        });
+
+        document.getElementById('show-answer-btn5').addEventListener('click', function() {
+            var img = document.getElementById('answer-img5');
+            if (img.style.display === 'none' || img.style.display === '') {
+                img.style.display = 'block';
+                this.textContent = 'Hide Answer';
+            } else {
+                img.style.display = 'none';
+                this.textContent = 'Show Answer';
+            }
+        });
+    </script>
+
+</body>
+</html>
